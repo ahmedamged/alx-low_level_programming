@@ -4,6 +4,7 @@
 
 /**
  * main - Entry point
+ * Description: it will return 1
  * Return : 1
  */
 int main(void)
