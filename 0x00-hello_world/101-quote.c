@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include <string.h>
 #include <unistd.h>
 
 /**
  * main - Entry point
- * Description: it will return 1
- * Return : 1
+ *
+ * Description: 'Used write function to print a quote'
+ *
+ * Return: 1 (Success)
  */
 int main(void)
 {
