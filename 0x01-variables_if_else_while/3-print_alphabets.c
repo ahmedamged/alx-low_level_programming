@@ -15,10 +15,12 @@ int main(void)
 	while (lowerAlphapet <= 'z')
 	{
 		putchar(lowerAlphapet);
+		lowerAlphapet++;
 	}
 	while (upperAlphapet <= 'Z')
 	{
 		putchar(upperAlphapet);
+		upperAlphapet++;
 	}
 	putchar('\n');
 	return (0);
