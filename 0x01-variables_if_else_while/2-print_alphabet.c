@@ -11,7 +11,7 @@ int main(void)
 {
 	char alphapet = 'a';
 
-	while (alphapet < 'z')
+	while (alphapet <= 'z')
 	{
 		putchar(alphapet);
 		alphapet++;
