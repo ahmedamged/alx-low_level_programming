@@ -23,5 +23,6 @@ int main(void)
 		}
 		alphapet++;
 	}
+	putchar('\n');
 	return (0);
 }
