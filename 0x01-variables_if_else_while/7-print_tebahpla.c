@@ -12,7 +12,7 @@ int main(void)
 {
 	char reversedAlphapet = 'z';
 
-	while (reversedAlphapet > 'a')
+	while (reversedAlphapet >= 'a')
 	{
 		putchar(reversedAlphapet);
 		reversedAlphapet--;
