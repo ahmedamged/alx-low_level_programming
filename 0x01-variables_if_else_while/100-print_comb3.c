@@ -19,8 +19,8 @@ int main(void)
 		{
 			if (y != x)
 			{
-				putchar(x);
-				putchar(y);
+				putchar(x + '0');
+				putchar(y + '0');
 				if (x == 8 && y == 9)
 				{
 				}
