@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
+#include "main.h"
 /**
  * print_sign - Prints the sign of a number
  * @n: number
@@ -11,23 +11,20 @@
  */
 int print_sign(int n)
 {
-	int m = 1;
-	int l = -1;
-	int b = 0;
 
 	if (n > 0)
 	{
-		printf("+");
-		return (m);
+		_putchar(43);
+		return (1);
 	}
 	else if (n < 0)
 	{
-		printf("-");
-		return (l);
+		_putchar(45);
+		return (-1);
 	}
 	else
 	{
-		printf("0");
-		return (b);
+		_putchar(48);
+		return (0);
 	}
 }
