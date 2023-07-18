@@ -12,7 +12,7 @@
 int print_sign(int n)
 {
 	int m = 1;
-	int n = -1;
+	int l = -1;
 	int b = 0;
 
 	if (n > 0)
@@ -23,7 +23,7 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		printf("-");
-		return (n);
+		return (l);
 	}
 	else
 	{
