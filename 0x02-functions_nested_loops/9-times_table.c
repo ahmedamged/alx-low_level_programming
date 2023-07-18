@@ -23,7 +23,7 @@ void times_table(void)
 			{
 				putchar(',');
 				putchar(' ');
-				if (result < 10)
+				if (horizontal * (vertical + 1) < 10)
 				{
 					putchar(' ');
 				}
