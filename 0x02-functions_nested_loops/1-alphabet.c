@@ -8,16 +8,16 @@
  * Return: always 0 (success)
  */
 
-/* print_alphapet - Prints Alphapet */
+/* print_alphabet - Prints Alphabet */
 void print_alphabet(void);
 
 int main(void)
 {
-	print_alphapet();
+	print_alphabet();
 	return (0);
 }
 
-/* print_alphapet - Prints Alphapet */
+/* print_alphabet - Prints Alphabet */
 void print_alphabet(void)
 {
 	char alphapet = 'a';
