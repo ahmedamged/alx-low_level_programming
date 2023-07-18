@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* print_alphabet - Prints Alphabet */
+/**
+ * print_alphabet - Prints Alphabet
+ */
 void print_alphabet(void)
 {
 	char alphapet = 'a';
