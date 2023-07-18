@@ -11,19 +11,23 @@
  */
 int print_sign(int n)
 {
+	int m = 1;
+	int n = -1;
+	int b = 0;
+
 	if (n > 0)
 	{
-		putchar('+');
-		return (1);
+		printf("+");
+		return (m);
 	}
 	else if (n < 0)
 	{
-		putchar('-');
-		return (-1);
+		printf("-");
+		return (n);
 	}
 	else
 	{
-		putchar('0');
-		return (0);
+		printf("0");
+		return (b);
 	}
 }
