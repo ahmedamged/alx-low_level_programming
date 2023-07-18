@@ -10,16 +10,14 @@
 int _islower(int c)
 {
 	int r;
-	int m = 0;
-	int n = 1;
 
 	r = islower(c);
 	if (r == 0)
 	{
-		return m;
+		return (0);
 	}
 	else
 	{
-		return n;
+		return (1);
 	}
 }
