@@ -8,23 +8,23 @@
  */
 void fibonacci(void)
 {
-        int first = 0;
-	int current = 1;
+        unsigned long int first = 0;
+	unsigned long int current = 1;
 	int i = 0;
 
-	printf("%d", first);
+	printf("%lu", first);
 	putchar(',');
 	putchar(' ');
-	printf("%d", current);
+	printf("%lu", current);
 	putchar(',');
 	putchar(' ');
 
 	while (i < 96)
 	{
-		int result = current + first;
+		unsigned long int result = current + first;
 		first = current;
 		current = result;
-		printf("%d", result);
+		printf("%lu", result);
 		if (i != 95)
 		{
 			putchar(',');
