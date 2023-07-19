@@ -32,5 +32,4 @@ void fibonacci(void)
 		}
 		i++;
 	}
-        return (0);
 }
