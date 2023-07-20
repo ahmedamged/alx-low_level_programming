@@ -3,25 +3,20 @@
 #include <ctype.h>
 
 /**
- * fibonacci: Prints the first 98 Fibonacci numbers
- * Return: void
+ * main - Entry point
+ * Description: prints the first 98 Fibonacci numbers
+ * Return: always 0 (success)
  */
-void fibonacci(void)
+int main(void)
 {
-        unsigned long int first = 0;
+	unsigned long int first = 0;
 	unsigned long int current = 1;
 	int i = 0;
-
-	printf("%lu", first);
-	putchar(',');
-	putchar(' ');
-	printf("%lu", current);
-	putchar(',');
-	putchar(' ');
 
 	while (i < 96)
 	{
 		unsigned long int result = current + first;
+
 		first = current;
 		current = result;
 		printf("%lu", result);
@@ -32,4 +27,6 @@ void fibonacci(void)
 		}
 		i++;
 	}
+	putchar('\n');
+	return (0);
 }
