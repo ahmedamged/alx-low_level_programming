@@ -5,7 +5,7 @@
 
 /**
  * print_times_table - Prints a time table for a number
-                    from 0 to 15
+ *		from 0 to 15
  * @n: the number
  * Return: void
  */
@@ -27,12 +27,12 @@ void print_times_table(int n)
 				{
 					putchar(',');
 					putchar(' ');
-					if ((i * (j+1)) < 10)
+					if ((i * (j + 1)) < 10)
 					{
 						putchar(' ');
 						putchar(' ');
 					}
-					else if ((i * (j+1)) < 100)
+					else if ((i * (j + 1)) < 100)
 					{
 						putchar(' ');
 					}
