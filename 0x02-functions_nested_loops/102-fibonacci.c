@@ -12,12 +12,6 @@ int main(void)
 	unsigned long int current = 1;
 	int i = 0;
 
-	printf("%lu", first);
-	putchar(',');
-	putchar(' ');
-	printf("%lu", current);
-	putchar(',');
-	putchar(' ');
 	while (i < 50)
 	{
 		unsigned long int result = current + first;
