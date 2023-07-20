@@ -9,14 +9,14 @@
  */
 int _isupper(int c)
 {
-        int r = isupper(c);
+	int r = isupper(c);
 
-        if (r == 0)
-        {
-                return (0);
-        }
-        else
-        {
-                return (1);
-        }
+	if (r == 0)
+	{
+		return (0);
+	}
+	else
+	{
+		return (1);
+	}
 }
