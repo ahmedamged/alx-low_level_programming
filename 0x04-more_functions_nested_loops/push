@@ -1,0 +1,5 @@
+#!/bin/bash
+git status
+git add .
+read varmsg
+git commit -m "$varmsg"
