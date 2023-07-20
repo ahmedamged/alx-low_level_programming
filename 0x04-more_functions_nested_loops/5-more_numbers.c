@@ -4,8 +4,8 @@
 #include "main.h"
 
 /**
- * more_numbers - Prints 10 times the numbers, 
- *              from 0 to 14
+ * more_numbers - Prints 10 times the numbers,
+ *		from 0 to 14
  * Return: void
  */
 void more_numbers(void)
@@ -18,6 +18,7 @@ void more_numbers(void)
 		while (x < 15)
 		{
 			int z;
+
 			if (x >= 10)
 			{
 				z = x / 10;
@@ -30,6 +31,7 @@ void more_numbers(void)
 			if (x >= 10)
 			{
 				int y = x % 10;
+
 				_putchar(y + '0');
 			}
 			x++;
