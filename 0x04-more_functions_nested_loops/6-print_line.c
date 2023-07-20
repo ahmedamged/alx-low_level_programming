@@ -5,6 +5,7 @@
 
 /**
  * print_line - Draws a straight line in the terminal
+ * @n: number that draws _ line based on it
  * Return: void
  */
 void print_line(int n)
