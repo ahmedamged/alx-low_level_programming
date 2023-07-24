@@ -15,7 +15,7 @@ void print_rev(char *s)
 	char temp;
 	int i = lenstr;
 
-	while (i > 0)
+	while (i >= 0)
 	{
 		temp = s[i];
 		printf("%c", temp);
