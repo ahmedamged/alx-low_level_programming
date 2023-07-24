@@ -21,4 +21,6 @@ void print_rev(char *s)
 		printf("%c", temp);
 		i--;
 	}
+	putchar('\0');
+	putchar('\n');
 }
