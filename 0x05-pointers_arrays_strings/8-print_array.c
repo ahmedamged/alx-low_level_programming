@@ -18,8 +18,8 @@ void print_array(int *a, int n)
 	while (j < n)
 	{
 		temp = a[j];
-		printf ("%d", temp);
-		if (j != n - 1) 
+		printf("%d", temp);
+		if (j != n - 1)
 		{
 			putchar(',');
 			putchar(' ');
