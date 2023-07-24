@@ -11,14 +11,15 @@
  */
 void print_rev(char *s)
 {
-	int lenstr = strlen(s);
-	char temp;
-	int i = lenstr;
+	int i = 0;
 
-	while (i >= 0)
+	while (s[i] != '\0')
 	{
-		temp = s[i];
-		printf("%c", temp);
-		i--;
+		i++;
 	}
+	while (i)
+	{
+		putchar(s[--i]);
+	}
+	putchar('\n');
 }
