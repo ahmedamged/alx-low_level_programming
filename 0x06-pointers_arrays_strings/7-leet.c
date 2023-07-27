@@ -20,7 +20,7 @@ char *leet(char *n)
 	{
 		while (m < 10)
 		{
-			if(n[i] == a[m])
+			if (n[i] == a[m])
 			{
 				n[i] = b[m];
 			}
