@@ -14,14 +14,14 @@ void reverse_array(int *a, int n)
 {
 	int i = 0;
 	int *temp = malloc(n * sizeof(int));
-	int m = n;
+	int m = n - 1;
 
 	memcpy(temp, a, n * sizeof(int));
 	while (i < n)
 	{
-		m--;
 		temp[i] = a[m];
 		i++;
+		m--;
 	}
 	memcpy(a, temp, n * sizeof(int));
 }
