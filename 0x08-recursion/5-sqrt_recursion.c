@@ -7,7 +7,7 @@
 /**
  * square_root - Returns the natural square root of a number
  * @n: integer
- * @i: iterator
+ * @x: iterator
  * Return: the natural square root of a number
  */
 int square_root(int n, int x)
