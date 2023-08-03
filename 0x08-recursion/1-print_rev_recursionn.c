@@ -11,9 +11,18 @@
  */
 void _print_rev_recursion(char *s)
 {
-	if (s[0] != '\0')
+	int i = strlen(s) - 1;
+	int j = 0;
+	char ch;
+	char *str = malloc(strlen(s));
+
+	while (i > j)
 	{
-		_print_rev_recursion(s + 1);
-		_putchar(s[0]);
+		ch = s[i];
+		str[i] = s[j];
+		str[j] = ch;
+		i--;
+		j++;
 	}
+	puts(str);
 }
