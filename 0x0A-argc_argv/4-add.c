@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - Entry point
@@ -12,6 +13,8 @@ int main(int argc, char *argv[])
 {
 	int i = 1;
 	int sum = 0;
+	int num;
+	char *p;
 
 	if (argc == 1)
 	{
@@ -22,14 +25,15 @@ int main(int argc, char *argv[])
 	{
 		while (i < argc)
 		{
-			if (atoi(argv[i]) == 0)
+			num = strtol(argv[i], &p, 10);
+			if (!*p)
 			{
-				printf("Error\n");
-				return (1);
+				sum += num;
 			}
 			else
 			{
-				sum += atoi(argv[i]);
+				printf("Error\n");
+                                return (1);
 			}
 			i++;
 		}
