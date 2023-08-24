@@ -14,6 +14,10 @@ list_t *add_node(list_t **head, const char *str)
 {
 	list_t *newNode = malloc(sizeof(struct list));
 
+	if (newNode == NULL)
+	{
+		return (NULL);
+	}
 	newNode->str = (char *)str;
 	newNode->len = strlen(str);
 	newNode->next = *head;
