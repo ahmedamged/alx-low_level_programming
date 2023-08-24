@@ -1,6 +1,13 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/**
+ * struct list - linked list
+ * @str: string
+ * @len: the length of the string
+ * @next: the pointer to the next node
+ * Description: linked list
+ */
 struct list
 {
 	char *str;
